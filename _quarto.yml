@@ -1,19 +1,23 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "myblog"
+  title: "Bassim Eledath"
+  description: "This is Bassim's technical blog"
   navbar:
     right:
-      - about.qmd
+      - text: Blog
+        href: blog.qmd 
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/bassimeledath
+      - icon: linkedin
+        href: https://www.linkedin.com/in/bassim-eledath/
 format:
   html:
     theme: cosmo
     css: styles.css
+
 
 
 
