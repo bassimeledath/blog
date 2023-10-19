@@ -1,0 +1,69 @@
+/*-- scss:defaults --*/
+
+// scss-docs-start gray-color-variables
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+
+$primary: #202123;
+$body-bg: #434654;
+
+// change color of border lines
+$border-color: #c5c0ff;
+
+// change color of h1 titles
+$headings-color: $white !default;
+
+.navbar-title {
+    color: $gray-400;
+
+    &:hover {
+        color: #c5c0ff;
+    }
+}
+
+// Style for the SVG icon
+.aa-SubmitIcon {
+    fill: $gray-400;
+
+    &:hover {
+        fill: #c5c0ff;
+    }
+}
+
+// Style for <span class="menu-text">Blog</span>
+.menu-text {
+    color: $gray-400;
+
+    &:hover {
+        color: #c5c0ff;
+    }
+}
+
+// Style for the GitHub icon
+.bi-github {
+    color: $gray-400;
+
+    &:hover {
+        color: #c5c0ff;
+    }
+}
+
+.quarto-about-trestles .about-entity .about-link {
+    color: $gray-500 !important;
+    border: solid 1px;
+
+    &:hover {
+        color: $primary !important;
+        background-color: #c5c0ff !important;
+    }
+}

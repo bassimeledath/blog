@@ -12,12 +12,9 @@ website:
         href: blog.qmd 
       - icon: github
         href: https://github.com/bassimeledath
-      - icon: linkedin
-        href: https://www.linkedin.com/in/bassim-eledath/
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: theme.scss
 
 
 

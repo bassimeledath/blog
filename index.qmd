@@ -1,19 +1,20 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Hi, I'm Bassim 👋🏾"
+image: profile.png
+comments: false
+style: theme.scss
 about:
-  template: jolla
+  template: trestles
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: envelope
+      text: Email
+      href: mailto:bassimfaizal@gmail.com
+    - icon: file-pdf
+      text: Resume
+      href: https://drive.google.com/file/d/19rDx6IRKuLLMs-mYUr1_slNbNxkBhzP0/view?usp=sharing
     - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
-
+      text: Linkedin
+      href: https://www.linkedin.com/in/bassim-eledath/
 ---
 
 About this blog
