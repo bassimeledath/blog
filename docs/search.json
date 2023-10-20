@@ -39,6 +39,6 @@
     "href": "index.html",
     "title": "Hi, I’m Bassim 👋🏾",
     "section": "",
-    "text": "About this blog"
+    "text": "class AboutBassim: \n    def __init__(self):\n        self.occupation = 'Machine Learning Engineer'\n        self.skills = (\n            'Python',\n            'Machine Learning',\n            'A/B testing',\n            'ChatGPT'\n        )\n        self.hobbies = (\n            'Powerlifting',\n            'Eating spicy food',\n            'Playing pickleball'\n        )\n        self.current_favorite_music_artists = (\n            'Pale jay',\n            'Etran de L`Aïr',\n            'French79'\n        )\n        self.fun_fact = 'I grew up in Dubai!'"
   }
 ]

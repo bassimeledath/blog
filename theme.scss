@@ -18,7 +18,7 @@ $primary: #202123;
 $body-bg: #434654;
 
 // change color of border lines
-$border-color: #c5c0ff;
+$border-color: #434654;
 
 // change color of h1 titles
 $headings-color: $white !default;
@@ -65,5 +65,38 @@ $headings-color: $white !default;
     &:hover {
         color: $primary !important;
         background-color: #c5c0ff !important;
+    }
+}
+
+#ide-style {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #dcdcdc;
+
+    pre.title {
+        margin-top: 0px;
+    }
+
+    pre.class-name,
+    span.keyword {
+        color: #569cd6; // light blue for keywords and class names
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    pre.attribute {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    span.braces {
+        color: #808080; // grey for parentheses, braces, and brackets
+    }
+
+    span.value {
+        color: #c5c0ff;
     }
 }
