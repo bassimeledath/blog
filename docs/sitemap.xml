@@ -2,26 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bassimeledath.com/blog.html</loc>
-    <lastmod>2023-10-20T06:07:52.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bassimeledath.com/index.html</loc>
-    <lastmod>2023-10-20T06:05:53.416Z</lastmod>
+    <lastmod>2023-10-20T06:18:05.856Z</lastmod>
   </url>
   <url>
     <loc>https://bassimeledath.com/posts/first_blog_post/post.html</loc>
-    <lastmod>2023-10-20T05:53:45.934Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bassimeledath.com/posts/welcome/index.html</loc>
-    <lastmod>2023-10-20T05:50:01.846Z</lastmod>
+    <lastmod>2023-10-20T06:18:05.294Z</lastmod>
   </url>
   <url>
     <loc>https://bassimeledath.com/posts/post-with-code/index.html</loc>
-    <lastmod>2023-10-20T06:04:42.846Z</lastmod>
+    <lastmod>2023-10-20T06:18:03.460Z</lastmod>
   </url>
   <url>
     <loc>https://bassimeledath.com/posts/python_blog_post/post.html</loc>
-    <lastmod>2023-10-20T06:03:38.113Z</lastmod>
+    <lastmod>2023-10-20T06:18:04.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bassimeledath.com/index.html</loc>
+    <lastmod>2023-10-20T06:18:05.512Z</lastmod>
   </url>
 </urlset>

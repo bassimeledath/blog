@@ -28,20 +28,6 @@
     "text": "This is a post with executable code."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi, I’m Bassim 👋🏾",
-    "section": "",
-    "text": "class AboutBassim: \n    def __init__(self):\n        self.occupation = 'Machine Learning Engineer'\n        self.skills = (\n            'Python',\n            'Machine Learning',\n            'A/B testing',\n            'ChatGPT'\n        )\n        self.hobbies = (\n            'Powerlifting',\n            'Eating spicy food',\n            'Playing pickleball'\n        )\n        self.current_favorite_music_artists = (\n            'Pale jay',\n            'Etran de L`Aïr',\n            'French79'\n        )\n        self.fun_fact = 'I grew up in Dubai!'"
-  },
-  {
     "objectID": "posts/python_blog_post/post.html",
     "href": "posts/python_blog_post/post.html",
     "title": "This is a python blog post",
@@ -54,5 +40,12 @@
     "title": "This is a python blog post",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nimport pandas as pd\nimport numpy as np\n\nfor i in range(10):\n    print(i)\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Bassim 👋🏾",
+    "section": "",
+    "text": "class AboutBassim: \n    def __init__(self):\n        self.occupation = 'Machine Learning Engineer'\n        self.skills = (\n            'Python',\n            'Machine Learning',\n            'A/B testing',\n            'ChatGPT'\n        )\n        self.hobbies = (\n            'Powerlifting',\n            'Eating spicy food',\n            'Playing pickleball'\n        )\n        self.current_favorite_music_artists = (\n            'Pale jay',\n            'Etran de L`Aïr',\n            'French79'\n        )\n        self.fun_fact = 'I grew up in Dubai!'"
   }
 ]
