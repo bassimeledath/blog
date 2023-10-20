@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "My Articles",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nThis is a dummy blog posts\n\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\n\nThis is a test post. In this post, I try out different functionalities\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nThis is a python blog post\n\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\n\nThis is a python post\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\nThis is a dummy blog posts\n\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\n\nThis is a test post. In this post, I try out different functionalities\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/first_blog_post/post.html",
@@ -40,5 +40,19 @@
     "title": "Hi, I’m Bassim 👋🏾",
     "section": "",
     "text": "class AboutBassim: \n    def __init__(self):\n        self.occupation = 'Machine Learning Engineer'\n        self.skills = (\n            'Python',\n            'Machine Learning',\n            'A/B testing',\n            'ChatGPT'\n        )\n        self.hobbies = (\n            'Powerlifting',\n            'Eating spicy food',\n            'Playing pickleball'\n        )\n        self.current_favorite_music_artists = (\n            'Pale jay',\n            'Etran de L`Aïr',\n            'French79'\n        )\n        self.fun_fact = 'I grew up in Dubai!'"
+  },
+  {
+    "objectID": "posts/python_blog_post/post.html",
+    "href": "posts/python_blog_post/post.html",
+    "title": "This is a python blog post",
+    "section": "",
+    "text": "Bassim test 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nimport pandas as pd\nimport numpy as np\n\nfor i in range(10):\n    print(i)\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
+  },
+  {
+    "objectID": "posts/python_blog_post/post.html#merriweather",
+    "href": "posts/python_blog_post/post.html#merriweather",
+    "title": "This is a python blog post",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nimport pandas as pd\nimport numpy as np\n\nfor i in range(10):\n    print(i)\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
   }
 ]

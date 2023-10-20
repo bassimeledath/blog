@@ -1,0 +1,11 @@
+{
+  "hash": "26350c4087ad6091cc9896caacf0d21b",
+  "result": {
+    "markdown": "---\ntitle: 'This is a python blog post'\ndate: '2022-06-01'\ncategories: ['123', 'Second Tag']\ndescription: 'This is a python post'\nexecute: \n  message: false\n  warning: false\neditor_options: \n  chunk_output_type: console\n---\n\n# Heading 1\n\nBassim test 1\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus. \n\n## Merriweather\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. **Aliquam feugiat dictum bibendum.** Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. [Fusce luctus](https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss) porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n### 3 - Code\n\nThis is `inline` code plus a small code chunk.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport pandas as pd\nimport numpy as np\n\nfor i in range(10):\n    print(i)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "post_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

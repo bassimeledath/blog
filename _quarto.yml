@@ -8,6 +8,8 @@ website:
   description: "This is Bassim's technical blog"
   navbar:
     right:
+      - text: About
+        href: index.qmd
       - text: Blog
         href: blog.qmd 
       - icon: github

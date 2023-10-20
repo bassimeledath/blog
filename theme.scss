@@ -68,6 +68,38 @@ $headings-color: $white !default;
     }
 }
 
+div.quarto-post a {
+    color: $gray-500 !important;
+}
+
+div.quarto-post .body h3.listing-title,
+div.quarto-post .body .listing-title.h3 {
+    color: #fff !important;
+
+    &:hover {
+        color: #c5c0ff !important;
+    }
+}
+
+.quarto-listing-category-title {
+    color: $gray-400 !important;
+}
+
+.quarto-listing-category .category {
+    color: $gray-500 !important;
+
+    &:hover {
+        color: #c5c0ff !important;
+    }
+}
+
+div.quarto-post .listing-categories .listing-category {
+    background-color: #c5c0ff !important;
+    color: #434654 !important;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
 #ide-style {
     font-family: 'Courier New', Courier, monospace;
     background-color: #1e1e1e;
@@ -99,4 +131,64 @@ $headings-color: $white !default;
     span.value {
         color: #c5c0ff;
     }
+}
+
+// Blog post styling
+
+pre>code.sourceCode {
+    white-space: pre;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border-radius: 4px;
+}
+
+div.sourceCode pre.sourceCode {
+    background-color: #1e1e1e !important;
+}
+
+/* Keywords, often seen in blue in VSCode */
+.sourceCode .kw {
+    color: #569cd6;
+}
+
+/* Strings, often seen in green in VSCode */
+.sourceCode .st {
+    color: #6a9955;
+}
+
+/* Comments, often in a greenish gray in VSCode */
+.sourceCode .co {
+    color: #608b4e;
+}
+
+/* Functions and methods, often in yellow in VSCode */
+.sourceCode .fu {
+    color: #dcdcaa;
+}
+
+p {
+    color: #d0d5da;
+}
+
+code {
+    color: #c5c0ff !important;
+}
+
+a {
+    color: #c5c0ff !important;
+
+    &:hover {
+        color: #569cd6 !important;
+    }
+}
+
+.img-fluid {
+    opacity: 0.8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading {
+    color: $gray-500 !important;
 }
