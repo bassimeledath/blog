@@ -4,7 +4,28 @@
     "href": "blog.html",
     "title": "My Articles",
     "section": "",
-    "text": "How I Built Ask Priya\n\n\n\n\n\n\n\nLLMs\n\n\nRAG\n\n\n\n\nA Gen AI U.S. Immigration Assistant\n\n\n\n\n\n\nDec 30, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "How I Built Ask Priya\n\n\n\n\n\n\n\nLLMs\n\n\nRAG\n\n\n\n\nA Gen AI U.S. Immigration Assistant\n\n\n\n\n\n\nDec 31, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "End to End project using MLOps tools. Built an end-to-end production-grade ML project using BERT Classifier, GitHub Actions, Flask Framework, Docker, and AWS Deployment.\n\n\n\nCase Study using a Kaggle Competition Dataset. Built an employee access system using machine learning."
+  },
+  {
+    "objectID": "projects.html#newsgroup-bert-classifier",
+    "href": "projects.html#newsgroup-bert-classifier",
+    "title": "Projects",
+    "section": "",
+    "text": "End to End project using MLOps tools. Built an end-to-end production-grade ML project using BERT Classifier, GitHub Actions, Flask Framework, Docker, and AWS Deployment."
+  },
+  {
+    "objectID": "projects.html#grant-access-using-machine-learning",
+    "href": "projects.html#grant-access-using-machine-learning",
+    "title": "Projects",
+    "section": "",
+    "text": "Case Study using a Kaggle Competition Dataset. Built an employee access system using machine learning."
   },
   {
     "objectID": "posts/ask_priya_v1/post.html",

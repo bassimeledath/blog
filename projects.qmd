@@ -1,0 +1,14 @@
+---
+title: "Projects"
+format: html
+---
+
+# Personal Projects
+
+## Newsgroup BERT Classifier
+
+End to End project using MLOps tools. Built an end-to-end production-grade ML project using BERT Classifier, GitHub Actions, Flask Framework, Docker, and AWS Deployment. 
+
+## Grant Access Using Machine Learning
+
+Case Study using a Kaggle Competition Dataset. Built an employee access system using machine learning. 
