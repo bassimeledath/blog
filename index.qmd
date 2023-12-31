@@ -11,7 +11,7 @@ about:
       href: mailto:bassimfaizal@gmail.com
     - icon: file-pdf
       text: Resume
-      href: https://drive.google.com/file/d/19rDx6IRKuLLMs-mYUr1_slNbNxkBhzP0/view?usp=sharing
+      href: https://drive.google.com/file/d/1zn3VPhNwZ7aXxqk5B6hDPxBll_jy32Nu/view?usp=sharing
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/bassim-eledath/
