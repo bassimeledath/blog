@@ -31,6 +31,10 @@ $headings-color: $white !default;
     }
 }
 
+.anchorjs-link {
+    display: none !important;
+}
+
 // Style for the SVG icon
 .aa-SubmitIcon {
     fill: $gray-400;
