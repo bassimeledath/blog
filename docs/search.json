@@ -11,21 +11,28 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "End to End project using MLOps tools. Built an end-to-end production-grade ML project using BERT Classifier, GitHub Actions, Flask Framework, Docker, and AWS Deployment.\n\n\n\nCase Study using a Kaggle Competition Dataset. Built an employee access system using machine learning."
+    "text": "Ask Priya is an LLM RAG chatbot that answers questions about US immigration using Google’s chat bison model that is fed both the user question and retrieved immigration documents from a vector store. The vector store is built using Llama-index and the documents are scraped webpages from the USCIS website.\nAsk Priya performs way better than Ask Emma, the existing solution used by USCIS. Ask Priya also won first place in the Truera Gen AI hackathon.\nBuilt using Python, Llama-index, VertexAI, OpenAI, Trulens, Streamlit etc."
   },
   {
-    "objectID": "projects.html#newsgroup-bert-classifier",
-    "href": "projects.html#newsgroup-bert-classifier",
+    "objectID": "projects.html#ask-priya",
+    "href": "projects.html#ask-priya",
     "title": "Projects",
     "section": "",
-    "text": "End to End project using MLOps tools. Built an end-to-end production-grade ML project using BERT Classifier, GitHub Actions, Flask Framework, Docker, and AWS Deployment."
+    "text": "Ask Priya is an LLM RAG chatbot that answers questions about US immigration using Google’s chat bison model that is fed both the user question and retrieved immigration documents from a vector store. The vector store is built using Llama-index and the documents are scraped webpages from the USCIS website.\nAsk Priya performs way better than Ask Emma, the existing solution used by USCIS. Ask Priya also won first place in the Truera Gen AI hackathon.\nBuilt using Python, Llama-index, VertexAI, OpenAI, Trulens, Streamlit etc."
   },
   {
-    "objectID": "projects.html#grant-access-using-machine-learning",
-    "href": "projects.html#grant-access-using-machine-learning",
+    "objectID": "projects.html#gemini-hire",
+    "href": "projects.html#gemini-hire",
     "title": "Projects",
-    "section": "",
-    "text": "Case Study using a Kaggle Competition Dataset. Built an employee access system using machine learning."
+    "section": "Gemini Hire",
+    "text": "Gemini Hire\n\nGemini Hire makes applying to jobs way easier using Gen AI. It parses your resume more effectively than Workday using Google’s gemini vision pro into a json file. That json file, along with a user pasted job description, is then fed into 3 sub applications - a cover letter generator, interview questions generator and a skills gap analysis generator. These sub applications are mainly driven by Gemini Pro’s text model. Evaluation is done using Trulens and OpenAI’s API.\nBuilt using Python, Gemini Vision Pro, OpenAI, Trulens, HuggingFace, Gradio etc."
+  },
+  {
+    "objectID": "projects.html#data-science-new-tab-chrome-application",
+    "href": "projects.html#data-science-new-tab-chrome-application",
+    "title": "Projects",
+    "section": "Data Science New Tab Chrome Application",
+    "text": "Data Science New Tab Chrome Application\n\nNew Tab application for Chrome with quick access to University of San Francisco pages like MyUSF, calendar, one card etc. Additionally keep up with recent papers and blogs in AI and latest events in San Francisco (updated daily). Also has a to-do list.\nBuilt using Python, React, Firebase, TailwindCSS, Chrome storage API etc."
   },
   {
     "objectID": "posts/ask_priya_v1/post.html",
