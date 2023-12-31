@@ -5,7 +5,7 @@ format: html
 
 ## [Ask Priya](https://askpriya.streamlit.app/)
 
-![](project_gifs/ask_priya.gif)
+![](https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/ask_priya.gif)
 
 Ask Priya is an LLM RAG chatbot that answers questions about US immigration using Google's chat bison model that is fed both the user question and retrieved immigration documents from a vector store. The vector store is built using Llama-index and the documents are scraped webpages from the [USCIS website](https://www.uscis.gov/working-in-the-united-states).
 
@@ -15,7 +15,7 @@ Built using Python, Llama-index, VertexAI, OpenAI, Trulens, Streamlit etc.
 
 ## [Gemini Hire](https://huggingface.co/spaces/beledath/GeminiHire)
 
-![](project_gifs/gemini_hire.gif)
+![](https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/gemini_hire.gif)
 
 Gemini Hire makes applying to jobs way easier using Gen AI. It parses your resume more effectively than Workday using Google's gemini vision pro into a json file. That json file, along with a user pasted job description, is then fed into 3 sub applications - a cover letter generator, interview questions generator and a skills gap analysis generator. These sub applications are mainly driven by Gemini Pro's text model. Evaluation is done using Trulens and OpenAI's API.
 
@@ -23,7 +23,7 @@ Built using Python, Gemini Vision Pro, OpenAI, Trulens, HuggingFace, Gradio etc.
 
 ## [Data Science New Tab Chrome Application](https://chromewebstore.google.com/detail/fcnkmelmfingdnagddabkkpgimjkjeco)
 
-![](project_gifs/msds_newtab.gif)
+![](https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/msds_newtab.gif)
 
 New Tab application for Chrome with quick access to University of San Francisco pages like MyUSF, calendar, one card etc. Additionally keep up with recent papers and blogs in AI and latest events in San Francisco (updated daily). Also has a to-do list. 
 
