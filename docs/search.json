@@ -4,42 +4,14 @@
     "href": "blog.html",
     "title": "My Articles",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nThis is a python blog post\n\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\n\nThis is a python post\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\nThis is a dummy blog posts\n\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\n\nThis is a test post. In this post, I try out different functionalities\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "How I Built Ask Priya\n\n\n\n\n\n\n\nLLMs\n\n\nRAG\n\n\n\n\nA Gen AI U.S. Immigration Assistant\n\n\n\n\n\n\nDec 30, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/first_blog_post/post.html",
-    "href": "posts/first_blog_post/post.html",
-    "title": "This is a dummy blog posts",
+    "objectID": "posts/ask_priya_v1/post.html",
+    "href": "posts/ask_priya_v1/post.html",
+    "title": "How I Built Ask Priya",
     "section": "",
-    "text": "Bassim test 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nlibrary(tidyverse)\n\nggplot(mpg) +\n  geom_jitter(aes(cty, hwy), size = 4, alpha = 0.5)"
-  },
-  {
-    "objectID": "posts/first_blog_post/post.html#merriweather",
-    "href": "posts/first_blog_post/post.html#merriweather",
-    "title": "This is a dummy blog posts",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nlibrary(tidyverse)\n\nggplot(mpg) +\n  geom_jitter(aes(cty, hwy), size = 4, alpha = 0.5)"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/python_blog_post/post.html",
-    "href": "posts/python_blog_post/post.html",
-    "title": "This is a python blog post",
-    "section": "",
-    "text": "Bassim test 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nimport pandas as pd\nimport numpy as np\n\nfor i in range(10):\n    print(i)\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
-  },
-  {
-    "objectID": "posts/python_blog_post/post.html#merriweather",
-    "href": "posts/python_blog_post/post.html#merriweather",
-    "title": "This is a python blog post",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nimport pandas as pd\nimport numpy as np\n\nfor i in range(10):\n    print(i)\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
+    "text": "US Immigration is complicated\nThere are millions of people looking to either visit, move to or reside in the US. And in that pursuit, they are confronted with the US immigration system overseen by the USCIS (United States Citizenship and Immigration Services).\nAnd as anyone will tell you, dealing with the USCIS is a nightmare. The forms are complicated, the instructions are confusing and the wait times are long. And if you make a mistake, you could be denied entry or worse, deported.\nThe abundance of policies, forms and instructions are overwhelming, especially for native English speakers.\n\n\nThe current solution\nUSCIS’s attempt at a solution is ‘Ask Emma’ which, in their words, is a “computer-generated virtual assistant who can answer your questions and even take you to the right spot on our website.”\nBut Ask Emma is not very helpful. It is not very smart and it is not very human. It’s responses are quite formulaic, with users typically picking from a menu of choices. Here you can see Ask Emma not knowing an answer to a question that is very common among international students.\n\nFurthermore, Ask Emma is not very accessible as it is only available in English and Spanish.\n\n\nThe better solution - Ask Priya\nSo you have this large body of textual information on immigration services that is publicly available on the USCIS website, and a poorly perofrming chatbot that is not very accessible. How do we make this information more accessible?\nEnter Retrieval Augmented Generation (RAG) models. RAG models are a combination of a retrieval model and a generation model. The retrieval model is used to retrieve relevant passages from the USCIS website, and the generation model is used to generate an answer to the question based on the retrieved passages and the user’s question.\nSo a few compadres and I built Ask Priya.\n\n\n\nSystems design\nSo how does Ask Priya work under the hood? At a high level, it takes a user’s question, embeds it using openai’s ada-002 model, then similar documents are retrieved from the llama-index vector store, and then the LLM, Vertex AI Chat Bison, is given both the question and the retrieved documents to generate an answer, which is then returned to the user. The vector store here contains embeddings of all the documents (web pages) on the USCIS website.\nAnd this pipeline’s performance is evaluated using Trulens Eval which I will cover in detail in the next section.\n\n\n\nEvaluation\nSo we have a working RAG model, but how do we know if it is performing well? To answer that, we first needed a baseline performance for comparison.\nSo we used the trulens package to establish an ‘answer relevance’ score for Ask Emma. For the unacquainted, trulens is a package that essentially lets you easily use LLMs to evaluate LLM performance. It works by prompting another LLM, known as an ‘evaluator,’ to assess the performance of your model. This assessment typically involves scoring the original model’s responses based on criteria such as ‘answer relevance,’ which measures how closely the LLM’s response aligns with the user’s query.\nThe difference in answer relevance between Ask Emma (0.33) and Ask Priya (0.99) is quite stark. This means that Ask Priya’s is actually answering the question asked by the user. Of course, this is not indicative of whether the answer is actually correct, but it is a great start.\n\n\n\nNext steps\nThe proof of concept for Ask Priya won first place at the Truera Hackathon and we are excited to continue working on it. Some of the next steps include:\n\nTry further advanced retrieval strategies to improve the groundedness metric\nFurther prompt engineering to improve answer quality\nMigrate to google cloud deployment\nAdd more trulens feedback functions\n\nAnd more! Excited for the progression of Ask Priya!"
   },
   {
     "objectID": "index.html",

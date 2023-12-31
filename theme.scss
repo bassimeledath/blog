@@ -161,6 +161,10 @@ div.sourceCode pre.sourceCode {
     color: #608b4e;
 }
 
+li {
+    color: #d0d5da; // or another light color that contrasts well with $body-bg
+}
+
 /* Functions and methods, often in yellow in VSCode */
 .sourceCode .fu {
     color: #dcdcaa;
