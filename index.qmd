@@ -1,6 +1,6 @@
 ---
 title: "Hi, I'm Bassim 👋🏾"
-image: project_gifs/profile_animation.gif
+image: https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/profile_animation.gif
 comments: false
 style: theme.scss
 about:
