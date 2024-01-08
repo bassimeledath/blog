@@ -1,6 +1,6 @@
 ---
 title: "Hi, I'm Bassim 👋🏾"
-image: profile.png
+image: project_gifs/profile_animation.gif
 comments: false
 style: theme.scss
 about:
@@ -25,7 +25,7 @@ about:
             'Python',
             'Machine Learning',
             'A/B testing',
-            'ChatGPT'
+            'Generative AI'
         </span><span class="braces">)</span></pre>
 <pre class="attribute">        <span class="keyword">self</span>.hobbies = <span class="braces">(</span><span class="value">
             '🏋️‍♂️ Powerlifting',
