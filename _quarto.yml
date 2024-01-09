@@ -6,6 +6,7 @@ website:
   title: "Bassim Eledath"
   site-url: https://bassimeledath.com
   description: "This is Bassim's technical blog"
+  google-analytics: G-YQRSW0BTG2
   navbar:
     right:
       - text: About
