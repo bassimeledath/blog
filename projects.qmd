@@ -3,7 +3,7 @@ title: "Projects"
 format: html
 ---
 
-## [Ask Priya](https://askpriya.streamlit.app/)
+## [Ask Priya](https://askpriya2.streamlit.app/)
 
 ![](https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/ask_priya.gif)
 
