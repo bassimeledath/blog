@@ -138,9 +138,36 @@ gtag('config', 'G-YQRSW0BTG2', { 'anonymize_ip': true});
 
 </header>
 
+<section id="uncle-sam-tax" class="level2">
+<h2 class="anchored" data-anchor-id="uncle-sam-tax"><a href="https://lablab.ai/event/gpt-4-powered-app-creation-hackathon/give-us-all-your-money/filing-taxes-as-simple-as-1-2-3-with-unclesamtax">Uncle Sam Tax</a></h2>
+<p><img src="https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/uncle_sam_tax.gif" class="img-fluid"></p>
+<p>Filing taxes should be simple, especially for the 100M+ Americans who have the simple scenario of just one income source. UncleSamTax solves this by making filing taxes as simple as 1-2-3. How? We ask the user to upload the past year’s forms. We then use GPT-Vision to read the info from the forms and use GPT-4 to calculate values for the next year’s tax return form. And Voila! The user has a filled and prepared tax form that they submit to the government (aka UncleSam). By making doing taxes automated and simple, we are different from other complicated tax products (for every complicated tax scenario) as we are simple taxes for simple scenarios.</p>
+<p>Uncle Sam Tax was built using Python, GPT-4, GPT-Vision, Trulens, Portkey, Streamlit etc. Uncle Sam Tax, as a proof of concept, won first place at the GPT hackathon in San Francisco. Our team then decided to go ahead and impelment it for the <a href="https://lablab.ai/event/gpt-4-powered-app-creation-hackathon">GPT-4 Powered App Creation Hackathon</a>.</p>
+</section>
+<section id="ab-agent" class="level2">
+<h2 class="anchored" data-anchor-id="ab-agent"><a href="https://devpost.com/software/ab-agent">AB Agent</a></h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xs_7cr20RUE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>AB Agent automates two parts of the A/B testing workflow using Generative AI:</p>
+<p><strong>Design</strong></p>
+<p>The design phase of A/B testing is crucial for setting the stage for meaningful insights. AB Agent simplifies this process in three steps:</p>
+<ol type="1">
+<li><p><strong>Understanding User Instructions</strong>: Initially, AB Agent takes a user’s natural language instruction to set up an experiment. For example, a user might say, “Design an A/B test to test a UI change where the metric to increase is browsing time. We want the minimum effect to be 10% and we want to be 95% confident in the results.”</p></li>
+<li><p><strong>Rephrasing Queries</strong>: The instruction is then passed through the <code>mixtral-8x7b-instruct</code> model, which rephrases the user query into a more statistically oriented format. This step ensures that the setup is aligned with statistical best practices and clarifies the experiment’s objectives.</p></li>
+<li><p><strong>Function Calling for Experiment Design</strong>: Subsequently, the refined query is passed to <code>firefunction-v1</code>. This component ideally calls a sample size calculator among other tools to determine the necessary sample size and other critical details for designing the A/B test effectively.</p></li>
+</ol>
+<p><strong>Inference</strong></p>
+<p>The inference phase is where the results of the A/B test are interpreted to make informed decisions:</p>
+<ul>
+<li><p><strong>Interpreting Results</strong>: For interpreting the outcomes of an A/B test, AB Agent employs a function-calling model that uses a t-test calculator and other functions. This approach facilitates a robust analysis of the results.</p></li>
+<li><p><strong>Making Decisions</strong>: Based on this analysis, AB Agent makes a go/no-go decision on whether to implement feature B. This decision-making process is backed by statistical evidence, ensuring that changes are made with confidence in their impact.</p></li>
+</ul>
+<p>Built using Python, React, Fireworks etc. AB Agent was a finalist project at the OSS Functional Calling Hackathon.</p>
+</section>
 <section id="jobocomplete" class="level2">
 <h2 class="anchored" data-anchor-id="jobocomplete"><a href="https://devpost.com/software/jobo">JoboComplete</a></h2>
 <p><img src="https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/jobocomplete.gif" class="img-fluid"></p>
+<p>Manually inputting the same information like name, email, LinkedIn URL etc. over and over again for each application is a dreadful experience. JoboComplete, a Chrome extension, that automates input filling using LlamaIndex’s RAG capabilities, which has information about your resume.</p>
+<p>Built using Javascript, Python, FastAPI, LlamaIndex etc. JoboComplete won Honorable Mention at the LlamaIndex RAG hackathon!</p>
 </section>
 <section id="ask-priya" class="level2">
 <h2 class="anchored" data-anchor-id="ask-priya"><a href="https://askpriya2.streamlit.app/">Ask Priya</a></h2>
@@ -152,7 +179,7 @@ gtag('config', 'G-YQRSW0BTG2', { 'anonymize_ip': true});
 <section id="gemini-hire" class="level2">
 <h2 class="anchored" data-anchor-id="gemini-hire"><a href="https://huggingface.co/spaces/beledath/GeminiHire">Gemini Hire</a></h2>
 <p><img src="https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/gemini_hire.gif" class="img-fluid"></p>
-<p>Gemini Hire makes applying to jobs way easier using Gen AI. It parses your resume more effectively than Workday using Google’s gemini vision pro into a json file. That json file, along with a user pasted job description, is then fed into 3 sub applications - a cover letter generator, interview questions generator and a skills gap analysis generator. These sub applications are mainly driven by Gemini Pro’s text model. Evaluation is done using Trulens and OpenAI’s API.</p>
+<p>Gemini Hire makes applying to jobs way easier using Gen AI. It parses your resume more effectively than Workday using Google’s gemini vision pro into a json file. That json file, along with a user pasted job description, is then fed into 3 sub applications - a cover letter generator, interview questions generator and a skills gap analysis generator. These sub applications are mainly driven by Gemini Pro’s text model. Evaluation is done using Trulens and OpenAI’s API. GeminiHire won second place at the <a href="https://lablab.ai/event/gemini-ai-hackathon">Gemini AI Hackathon</a>!</p>
 <p>Built using Python, Gemini Vision Pro, OpenAI, Trulens, HuggingFace, Gradio etc.</p>
 </section>
 <section id="data-science-new-tab-chrome-application" class="level2">
