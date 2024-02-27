@@ -33,7 +33,7 @@ about:
             '🏓 Playing pickleball'
         </span><span class="braces">)</span></pre>
 <pre class="attribute">        <span class="keyword">self</span>.current_favorite_music_artists = <span class="braces">(</span><span class="value">
-            'Pale jay',
+            'Takeshi's Cashew',
             'Etran de L`Aïr',
             'French79'
         </span><span class="braces">)</span></pre>

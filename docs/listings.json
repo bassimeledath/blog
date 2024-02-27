@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/python_masterclass/post.html",
       "/posts/ask_priya_v1/post.html"
     ]
   }

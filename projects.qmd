@@ -3,6 +3,10 @@ title: "Projects"
 format: html
 ---
 
+## [JoboComplete](https://devpost.com/software/jobo)
+
+![](https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/jobocomplete.gif)
+
 ## [Ask Priya](https://askpriya2.streamlit.app/)
 
 ![](https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/ask_priya.gif)
