@@ -4,21 +4,35 @@
     "href": "blog.html",
     "title": "My Articles",
     "section": "",
-    "text": "How We Built Ask Priya\n\n\n\n\n\n\n\nLLMs\n\n\nRAG\n\n\n\n\nA Gen AI U.S. Immigration Assistant\n\n\n\n\n\n\nFeb 26, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "How We Built Ask Priya\n\n\n\n\n\n\n\nLLMs\n\n\nRAG\n\n\n\n\nA Gen AI U.S. Immigration Assistant\n\n\n\n\n\n\nMar 25, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Filing taxes should be simple, especially for the 100M+ Americans who have the simple scenario of just one income source. UncleSamTax solves this by making filing taxes as simple as 1-2-3. How? We ask the user to upload the past year’s forms. We then use GPT-Vision to read the info from the forms and use GPT-4 to calculate values for the next year’s tax return form. And Voila! The user has a filled and prepared tax form that they submit to the government (aka UncleSam). By making doing taxes automated and simple, we are different from other complicated tax products (for every complicated tax scenario) as we are simple taxes for simple scenarios.\nUncle Sam Tax was built using Python, GPT-4, GPT-Vision, Trulens, Portkey, Streamlit etc. Uncle Sam Tax, as a proof of concept, won first place at the GPT hackathon in San Francisco. Our team then decided to go ahead and impelment it for the GPT-4 Powered App Creation Hackathon."
+    "text": "Le Khan Academie lets you generate on demand Khan Academy style videos for any topic using Gen AI, specifically with a finetuned Mistral 8x7B model.\nLe Khan Academie allows users to input queries (e.g., “How does the distributive property work?”). Then Mistral large rewrites this query with more details on what the manim animation should include. This rewritten prompt is then passed into the finetuned Mistral model. Generates a Khan Academy-style video explaining and visualizing the concept with:\n\nAnimation created with finetuned Mixtral 8x7B on Fireworks AI that generates python code using manim animation library.\nNarration by a voice clone of Sal Khan, synchronized with the animation for a brief lecture.\n\nHere is a video demonstration - Link"
+  },
+  {
+    "objectID": "projects.html#le-khan-academie",
+    "href": "projects.html#le-khan-academie",
+    "title": "Projects",
+    "section": "",
+    "text": "Le Khan Academie lets you generate on demand Khan Academy style videos for any topic using Gen AI, specifically with a finetuned Mistral 8x7B model.\nLe Khan Academie allows users to input queries (e.g., “How does the distributive property work?”). Then Mistral large rewrites this query with more details on what the manim animation should include. This rewritten prompt is then passed into the finetuned Mistral model. Generates a Khan Academy-style video explaining and visualizing the concept with:\n\nAnimation created with finetuned Mixtral 8x7B on Fireworks AI that generates python code using manim animation library.\nNarration by a voice clone of Sal Khan, synchronized with the animation for a brief lecture.\n\nHere is a video demonstration - Link"
+  },
+  {
+    "objectID": "projects.html#guided-sprout",
+    "href": "projects.html#guided-sprout",
+    "title": "Projects",
+    "section": "Guided Sprout",
+    "text": "Guided Sprout\n\n\n\nApp\n\n\nGuided Sprout uses AI to personalize education. Our multimodal platform grades exams, provides tailored student feedback, and recommends targeted resources for improvement.\nWe use 5 OpenAI models to do so:\n\nGPT-4V: Transcribes text from paper-based exams.\nGPT-3.5 Turbo: Used as the router model to determine whether an answer is correct. If incorrect, passes the evaluation task to GPT-4.\nGPT-4: Uses Chain of Thought reasoning to give student highly individualized feedback.\nText-to-speech: Converts summarized feedback to audio.\nText-embedding-3-small: Embeds math textbook content.\n\nWatch video demonstration here: Link\n\n\n\nSystem Diagram"
   },
   {
     "objectID": "projects.html#uncle-sam-tax",
     "href": "projects.html#uncle-sam-tax",
     "title": "Projects",
-    "section": "",
-    "text": "Filing taxes should be simple, especially for the 100M+ Americans who have the simple scenario of just one income source. UncleSamTax solves this by making filing taxes as simple as 1-2-3. How? We ask the user to upload the past year’s forms. We then use GPT-Vision to read the info from the forms and use GPT-4 to calculate values for the next year’s tax return form. And Voila! The user has a filled and prepared tax form that they submit to the government (aka UncleSam). By making doing taxes automated and simple, we are different from other complicated tax products (for every complicated tax scenario) as we are simple taxes for simple scenarios.\nUncle Sam Tax was built using Python, GPT-4, GPT-Vision, Trulens, Portkey, Streamlit etc. Uncle Sam Tax, as a proof of concept, won first place at the GPT hackathon in San Francisco. Our team then decided to go ahead and impelment it for the GPT-4 Powered App Creation Hackathon."
+    "section": "Uncle Sam Tax",
+    "text": "Uncle Sam Tax\n\n\n\nApp\n\n\nFiling taxes should be simple, especially for the 100M+ Americans who have the simple scenario of just one income source. UncleSamTax solves this by making filing taxes as simple as 1-2-3. How? We ask the user to upload the past year’s forms. We then use GPT-Vision to read the info from the forms and use GPT-4 to calculate values for the next year’s tax return form. And Voila! The user has a filled and prepared tax form that they submit to the government (aka UncleSam). By making doing taxes automated and simple, we are different from other complicated tax products (for every complicated tax scenario) as we are simple taxes for simple scenarios.\nUncle Sam Tax was built using Python, GPT-4, GPT-Vision, Trulens, Portkey, Streamlit etc. Uncle Sam Tax, as a proof of concept, won first place at the GPT hackathon in San Francisco. Our team then decided to go ahead and impelment it for the GPT-4 Powered App Creation Hackathon."
   },
   {
     "objectID": "projects.html#ab-agent",
@@ -47,6 +61,13 @@
     "title": "Projects",
     "section": "Gemini Hire",
     "text": "Gemini Hire\n\nGemini Hire makes applying to jobs way easier using Gen AI. It parses your resume more effectively than Workday using Google’s gemini vision pro into a json file. That json file, along with a user pasted job description, is then fed into 3 sub applications - a cover letter generator, interview questions generator and a skills gap analysis generator. These sub applications are mainly driven by Gemini Pro’s text model. Evaluation is done using Trulens and OpenAI’s API. GeminiHire won second place at the Gemini AI Hackathon!\nBuilt using Python, Gemini Vision Pro, OpenAI, Trulens, HuggingFace, Gradio etc."
+  },
+  {
+    "objectID": "projects.html#sarimacv",
+    "href": "projects.html#sarimacv",
+    "title": "Projects",
+    "section": "SarimaCV",
+    "text": "SarimaCV\n\nSarimaCV is a python package that does cross validation for SARIMA models in a distributed manner. In my time series class, I was frustrated with having to do cross validation iteratively one condition at a time. So I quickly hacked together a package that does this in a distributed manner."
   },
   {
     "objectID": "projects.html#data-science-new-tab-chrome-application",

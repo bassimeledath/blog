@@ -138,8 +138,50 @@ gtag('config', 'G-YQRSW0BTG2', { 'anonymize_ip': true});
 
 </header>
 
+<section id="le-khan-academie" class="level2">
+<h2 class="anchored" data-anchor-id="le-khan-academie"><a href="">Le Khan Academie</a></h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/t6qdFRD1DQg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Le Khan Academie lets you generate on demand Khan Academy style videos for any topic using Gen AI, specifically with a finetuned Mistral 8x7B model.</p>
+<p>Le Khan Academie allows users to input queries (e.g., “How does the distributive property work?”). Then Mistral large rewrites this query with more details on what the manim animation should include. This rewritten prompt is then passed into the finetuned Mistral model. Generates a Khan Academy-style video explaining and visualizing the concept with:</p>
+<ul>
+<li>Animation created with finetuned Mixtral 8x7B on Fireworks AI that generates python code using manim animation library.</li>
+<li>Narration by a voice clone of Sal Khan, synchronized with the animation for a brief lecture.</li>
+</ul>
+<p>Here is a video demonstration - <a href="https://www.youtube.com/watch?v=73aglFxOqew">Link</a></p>
+</section>
+<section id="guided-sprout" class="level2">
+<h2 class="anchored" data-anchor-id="guided-sprout"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7176260004784607232/">Guided Sprout</a></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="project_photos/guided_sprout.png" class="img-fluid figure-img" width="700"></p>
+<figcaption class="figure-caption">App</figcaption>
+</figure>
+</div>
+<p>Guided Sprout uses AI to personalize education. Our multimodal platform grades exams, provides tailored student feedback, and recommends targeted resources for improvement.</p>
+<p>We use 5 OpenAI models to do so:</p>
+<ol type="1">
+<li>GPT-4V: Transcribes text from paper-based exams.</li>
+<li>GPT-3.5 Turbo: Used as the router model to determine whether an answer is correct. If incorrect, passes the evaluation task to GPT-4.</li>
+<li>GPT-4: Uses Chain of Thought reasoning to give student highly individualized feedback.</li>
+<li>Text-to-speech: Converts summarized feedback to audio.</li>
+<li>Text-embedding-3-small: Embeds math textbook content.</li>
+</ol>
+<p>Watch video demonstration here: <a href="https://www.youtube.com/watch?v=cyMZCNv1Ox0">Link</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="project_photos/guided_sprout_system.png" class="img-fluid figure-img" width="700"></p>
+<figcaption class="figure-caption">System Diagram</figcaption>
+</figure>
+</div>
+</section>
 <section id="uncle-sam-tax" class="level2">
 <h2 class="anchored" data-anchor-id="uncle-sam-tax"><a href="https://lablab.ai/event/gpt-4-powered-app-creation-hackathon/give-us-all-your-money/filing-taxes-as-simple-as-1-2-3-with-unclesamtax">Uncle Sam Tax</a></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="project_photos/uncle_sam_tax.png" class="img-fluid figure-img" width="700"></p>
+<figcaption class="figure-caption">App</figcaption>
+</figure>
+</div>
 <p>Filing taxes should be simple, especially for the 100M+ Americans who have the simple scenario of just one income source. UncleSamTax solves this by making filing taxes as simple as 1-2-3. How? We ask the user to upload the past year’s forms. We then use GPT-Vision to read the info from the forms and use GPT-4 to calculate values for the next year’s tax return form. And Voila! The user has a filled and prepared tax form that they submit to the government (aka UncleSam). By making doing taxes automated and simple, we are different from other complicated tax products (for every complicated tax scenario) as we are simple taxes for simple scenarios.</p>
 <p>Uncle Sam Tax was built using Python, GPT-4, GPT-Vision, Trulens, Portkey, Streamlit etc. Uncle Sam Tax, as a proof of concept, won first place at the GPT hackathon in San Francisco. Our team then decided to go ahead and impelment it for the <a href="https://lablab.ai/event/gpt-4-powered-app-creation-hackathon">GPT-4 Powered App Creation Hackathon</a>.</p>
 </section>
@@ -180,6 +222,11 @@ gtag('config', 'G-YQRSW0BTG2', { 'anonymize_ip': true});
 <p><img src="https://media.githubusercontent.com/media/bassimeledath/blog/main/project_gifs/gemini_hire.gif" class="img-fluid"></p>
 <p>Gemini Hire makes applying to jobs way easier using Gen AI. It parses your resume more effectively than Workday using Google’s gemini vision pro into a json file. That json file, along with a user pasted job description, is then fed into 3 sub applications - a cover letter generator, interview questions generator and a skills gap analysis generator. These sub applications are mainly driven by Gemini Pro’s text model. Evaluation is done using Trulens and OpenAI’s API. GeminiHire won second place at the <a href="https://lablab.ai/event/gemini-ai-hackathon">Gemini AI Hackathon</a>!</p>
 <p>Built using Python, Gemini Vision Pro, OpenAI, Trulens, HuggingFace, Gradio etc.</p>
+</section>
+<section id="sarimacv" class="level2">
+<h2 class="anchored" data-anchor-id="sarimacv"><a href="https://github.com/bassimeledath/sarimaCV/tree/main?tab=readme-ov-file">SarimaCV</a></h2>
+<p><img src="project_photos/sarima_cv.png" class="img-fluid" width="500"></p>
+<p>SarimaCV is a python package that does cross validation for SARIMA models in a distributed manner. In my time series class, I was frustrated with having to do cross validation iteratively one condition at a time. So I quickly hacked together a package that does this in a distributed manner.</p>
 </section>
 <section id="data-science-new-tab-chrome-application" class="level2">
 <h2 class="anchored" data-anchor-id="data-science-new-tab-chrome-application"><a href="https://chromewebstore.google.com/detail/fcnkmelmfingdnagddabkkpgimjkjeco">Data Science New Tab Chrome Application</a></h2>
